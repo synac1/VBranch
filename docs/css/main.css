@@ -560,10 +560,10 @@ a:active {
 
 .service .icon-box {
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
     overflow-y: hidden;
     position: relative;
-    width: 105%;
+    width: 100%;
 
 }
 .service .icon-box:before {
@@ -572,7 +572,7 @@ a:active {
     position: relative;
     top: 100px;
     width: 100px;
-    height: 1px;
+    height: 0px;
     display: block;
     margin: 0 auto;
     background-color: #cbcbcd;
@@ -587,11 +587,11 @@ a:active {
     background-color: #26282b;
     border-radius: 5px;
     display: inline-block;
-    height: 90px;
+    height: 115px;
     left: 36%;
     position: relative;
-    top: 20px;
-    width: 90px;
+    top: 25px;
+    width: 115px;
     -webkit-transform: rotate(50deg);
        -moz-transform: rotate(50deg);
         -ms-transform: rotate(50deg);
