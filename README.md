@@ -9,5 +9,5 @@ The repository contains:
 - **app** folder 
 
 
-_Link to website_:  ``` https://synac1.github.io/VBranch/ ```
+_Link to website_: <a href="https://synac1.github.io/VBranch/">VBranch</a> 
 
