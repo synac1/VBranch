@@ -552,7 +552,7 @@ a:active {
     color: #333333;
     font-weight: bold;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: auto;
     letter-spacing: 1px;
     font-weight: normal;
     text-transform: uppercase;
@@ -570,7 +570,7 @@ a:active {
     display: block;
     content: '';
     position: relative;
-    top: 75px;
+    top: 100px;
     width: 100px;
     height: 1px;
     display: block;
@@ -590,7 +590,7 @@ a:active {
     height: 90px;
     left: 36%;
     position: relative;
-    top: 17px;
+    top: 20px;
     width: 90px;
     -webkit-transform: rotate(50deg);
        -moz-transform: rotate(50deg);
