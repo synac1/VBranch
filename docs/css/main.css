@@ -563,7 +563,8 @@ a:active {
     margin-bottom: 15px;
     overflow-y: hidden;
     position: relative;
-    width: 100%;
+    width: 105%;
+
 }
 .service .icon-box:before {
     display: block;
@@ -586,11 +587,11 @@ a:active {
     background-color: #26282b;
     border-radius: 5px;
     display: inline-block;
-    height: 75px;
+    height: 90px;
     left: 36%;
     position: relative;
-    top: 12px;
-    width: 75px;
+    top: 17px;
+    width: 90px;
     -webkit-transform: rotate(50deg);
        -moz-transform: rotate(50deg);
         -ms-transform: rotate(50deg);
