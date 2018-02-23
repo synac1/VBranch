@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    background-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    background-color: #000;
+}
+
+.phone
+{
+    margin-top: 40px;
+    background: #000;
+    max-height:500px;
+    width:320px;
+    margin: 10px auto;
+    padding: 5px;
+    border-width: 10px;
+}
+
+.num-pad
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.num
+{
+    font-size:30px;
+    cursor: pointer;
+
+
+}
+.num:hover
+{
+    background-color: #9e9e9e;
+    color: #fff;
+    transition-property: background-color .2s linear 0s;
+    -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s;
+}
+
+.cbtn:hover{
+     color:#fff;
+     background-color: #ff0000;
+
+}
+
+input[type=button]{
+    border: 1px solid #fff;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    background-color:#000;
+    color: #fff;
+    cursor: pointer;
+    margin: 9px;
+    height: 80px;
+    width:80px;
+}
+input[type=submit]{
+    border: 1px solid #fff;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    height: 80px;
+    width:80px;
+    background-color: #000;
+    color: #fff;
+    margin: 9px;
+}
+input[type=submit]:hover{
+     color:#fff;
+     background-color: #00ff00;
+}
+input[type=text]{
+    max-height:90px;
+    width:640px;
+    font-size:70px;
+    margin: 10px auto;
+    padding: 5px;
+    color: #fff;
+    background-color:#000;
+    text-align: center;
+    border-bottom:solid  #fff 1px;
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style:none
+
+
+}
+.title{
+    text-align: center;
+    margin: 0px auto;
+	padding: 10px;
+	display: block;
+	font-weight: normal;
+	font-size: 42px;
+	letter-spacing: -1px;
+	color: #fff;
+	line-height: 64px;
+}
+
+
+.active
+{
+    color: #3498db;
+}
+.flashes{
+text-align: center;
+color: #ff0000;
+font-size: 42px;
+
+}

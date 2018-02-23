@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+
+    <div class="container">
+    
+
+      <div class="jumbotron">
+        <h1>Login</h1>
+        <form class="form-signin" action="/validateLogin" method="post">
+        <label for="inputUserName" class="sr-only">UserName</label>
+        <input type="text" name="inputUserName" id="inputUserName" class="form-control" placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+        
+        <button id="btnSignIn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+      </div>
+    </div>
+{% endblock %}
+
