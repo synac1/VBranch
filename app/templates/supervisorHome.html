@@ -1,0 +1,73 @@
+{%- extends "layout.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+ <div class="container">
+  <div class="row" style="margin-top:100px;">
+  
+  
+  <div class="col-sm-4">
+
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="https://robohash.org/volunteerstudent" alt="image">
+  <div class="card-block">
+    <h4 class="card-title">{{ session['user'] }}</h4>
+    <p class="card-text">Highly motivated student</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">School name</li>
+    <li class="list-group-item">Grade</li>
+  </ul>
+  <div class="card-block">
+    <a href="#" class="card-link">Edit Profile</a>
+    <a href="#" class="card-link">Change Picture</a>
+  </div>
+</div>
+
+
+  </div>
+<div class="col-sm-8">
+  <div class="content"> 
+    <h3 class="text-muted"> Hello, {{ session['user'] }} </h3>
+    
+  
+
+    <div class="card">
+  
+    <div class="card-block" >
+     <h4 class="card-title">Dougnout Chart</h4>
+      <canvas id="progressDougnoutChart"></canvas>
+    </div>
+    </div>
+    <div class="card">
+  
+    <div class="card-block" >
+     <h4 class="card-title">Spider Chart</h4>
+      <canvas id="skillsSpiderChart"></canvas>
+    </div>
+    </div>
+
+    <div class="card">
+
+    <div class="card-block">
+     <h4 class="card-title">Opportunities</h4>
+      <p class="card-text">Check all volunteer opportunities available to you</p>
+      <a href="#" class="btn btn-primary">Access</a>
+    </div>
+    </div>
+</div>
+</div>
+    
+
+    <div></div>
+  <div>
+  </div>
+
+</div>
+  
+      
+    
+  
+      
+
+{% endblock %}
+
