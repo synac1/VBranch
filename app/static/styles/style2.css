@@ -10,6 +10,16 @@ body
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: none;
     background-color: #fff;
+    /*
+          margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    background-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: none;
+    background-color: #000;
+    */
 }
 
 .phone
@@ -102,7 +112,7 @@ input[type=text]{
 }
 .title{
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
 	padding: 10px;
 	display: block;
 	font-weight: normal;
