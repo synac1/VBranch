@@ -75,9 +75,9 @@ th {
     width:900px;
     text-align: center;
     margin: 10px;
-	-moz-box-shadow: 0px 10px 14px -7px #276873;
-	-webkit-box-shadow: 0px 10px 14px -7px #276873;
-	box-shadow: 0px 10px 14px -7px #276873;
+	-moz-box-shadow: 0 10px 14px -7px #276873;
+	-webkit-box-shadow: 0 10px 14px -7px #276873;
+	box-shadow: 0 10px 14px -7px #276873;
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
 	background:-moz-linear-gradient(top, #e7e7e7 5%, #408c99 100%);
 	background:-webkit-linear-gradient(top, #e7e7e7 5%, #408c99 100%);
@@ -97,7 +97,7 @@ th {
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
+	text-shadow:0 1px 0 #3d768a;
 }
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
@@ -112,32 +112,4 @@ th {
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-.myButton1 {
-    width:900px;
-    text-align: center;
-    margin: 10px;
-	-moz-box-shadow: 0px 10px 14px -7px #276873;
-	-webkit-box-shadow: 0px 10px 14px -7px #276873;
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
-	background:-moz-linear-gradient(top, #ff0000 5%, #408c99 100%);
-	background:-webkit-linear-gradient(top, #ff0000 5%, #408c99 100%);
-	background:-o-linear-gradient(top, #ff0000 5%, #408c99 100%);
-	background:-ms-linear-gradient(top, #ff0000 5%, #408c99 100%);
-	background:linear-gradient(to bottom, #ff0000 5%, #408c99 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#408c99',GradientType=0);
-	background-color: #ff0000;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color: #0000ff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
 }
