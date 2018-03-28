@@ -97,6 +97,25 @@ def userHome():
         return render_template('error.html',error = 'Unauthorized Access')
 
 
+# -------------------
+# Aaron's code
+# -------------------
+@app.route('/AaronFile')
+def aaronFile():
+    row1 = {'page' : '#', 'opportunity' : 'Java or C++ tutor', 'location' : '123 Location St.',
+            'contact' : 'personInCharge@email.com', 'date' : '8/25 - 12/23', 'time' : '2:45pm - 6pm'}
+
+    row2 = {'page' : '#', 'opportunity' : 'Web Development Tutor', 'location' : "345 Area Ave.",
+            'contact' : 'ElJeffe@boss.com', 'date' : '1/29 - 5/10', 'time' : '4pm - 8pm'}
+
+    row3 = {'page' : '#', 'opportunity' : 'Photoshop Tutor', 'location' : '456 Specific Place',
+            'contact' : '123-456-7890', 'date' : '6/12 - 8/20', 'time' : '12pm - 3pm'}
+
+    row4 = {'page' : '#', 'opportunity' : 'Scratch Tutor', 'location' : '567 Important Row',
+            'contact' : 'guyToTalkTo@domain.com or 911-911-0911', 'date' : '1/3 - 2/1', 'time' : '9am - 5pm'}
+
+    x = (row1, row2,row3,row4)
+    return render_template("/AaronFile.html", x=x)
 
 #----------------------------------------
 # launch
